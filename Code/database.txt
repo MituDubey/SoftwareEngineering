@@ -1,0 +1,33 @@
+CREATE TABLE whoami
+(
+id int,
+name varchar(20),
+gender varchar(1),
+profession varchar(15),
+marital varchar(1),
+dead varchar(1),
+nationality varchar(1),
+muslim varchar(1),
+cartoon varchar(1)
+);
+insert into whoami values(1,'Albert Einstein','M','Scientist','M','Y','N','N','N');
+insert into whoami values(2,'Angelina Jolie','F','Actor','M','N','N','N','N');
+insert into whoami values(3,'Beyonce Knowles','F','Singer','M','N','N','N','N');
+insert into whoami values(4,'Lata Mangeshkar','F','Singer','U','N','I','N','N');
+insert into whoami values(5,'A R Rehman','M','Singer','M','N','I','Y','N');
+insert into whoami values(6,'Sonu Nigam','M','Singer','M','N','I','N','N');
+insert into whoami values(7,'Shahrukh khan','M','Actor','M','N','I','Y','N');
+insert into whoami values(8,'Salman Khan','M','Actor','U','N','I','Y','N');
+insert into whoami values(9,'Aamir Khan','M','Actor','M','N','I','Y','N');
+insert into whoami values(10,'Jennifer Lopez','F','Singer','R','N','N','N','N');
+insert into whoami values(11,'Enrique Iglesias','M','Singer','R','N','N','N','N');
+insert into whoami values(12,'Narendra Modi','M','Politician','M','N','I','N','N');
+insert into whoami values(13,'Obama','M','Politician','M','N','N','N','N');
+insert into whoami values(14,'Leonardo Dicaprio','M','Actor','U','N','N','N','N');
+insert into whoami values(15,'Rihanna','F','Singer','R','N','N','N','N');
+insert into whoami values(16,'Jagjit singh','M','Singer','M','Y','I','N','N');
+insert into whoami values(17,'Benazir Bhutto','F','Politician','M','Y','N','Y','N');
+insert into whoami values(18,'Stephen Hawking','M','Scientist','U','N','N','N','N');
+insert into whoami values(19,'Tom','M','Actor','U','N','N','N','Y');
+insert into whoami values(20,'Aladin','M','Actor','U','N','N','Y','Y');
+insert into whoami values(21,'Pocahontas','F','Actor','U','N','N','N','Y');
