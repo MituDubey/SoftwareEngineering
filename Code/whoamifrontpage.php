@@ -8,12 +8,12 @@
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 </head>
 <style type="text/css">
-body{ background-color: #8D2222; }
-#id1 {color: #8D2222;
-font-family: Papyrus,fantasy;
+body{ background-color: #CCCCFF; }
+#id1 {color: #CCCCFF;
+font-family: Papyrus,fantasy;margin-top: 20px;
 font-size: 50px;}
-#id2{text-align: justify; margin-left: 500px; margin-top: 200px;}
-#id3{text-align: justify; margin-left: 550px;}
+#id2{text-align: justify; margin-left: 50px; margin-top: 20px;}
+.id3{text-align: justify; margin-left: 55px; }
 .c2{font-weight:500;}
   #cf5 {
     position:relative;
@@ -64,24 +64,26 @@ font-size: 50px;}
     color: #FFFFFF; -webkit-border-radius: 5px; 
     -moz-border-radius: 5px; 
     }
-
 </style>
 <body>
-<br>
-<marquee id="id1" bgcolor="yellow"><span class="c2">????????????<span>WHO AM I <span class="c2">?????????????<span></marquee> 
-  <div id="cf5" class="hover">
-    <img class="bottom shadow" src="guesswho.jpg" />
+  <marquee id="id1" bgcolor="#0000FF"><span class="c2">????????????<span>WHO AM I <span class="c2">?????????????<span></marquee>
+<br><br>
+<div align="center" id="id2">
+<br><div id="cf5" class="hover">
+    <img class="bottom shadow" src="wai123.jpg" />
     <img class="top shadow" src="whoami.jpg" /> </div>
-     <form action="register.php" id="id3">   <p class="submit"> <input type="submit" value="Register"> </p> 
+ 
+     <form action="register.php" class="id3">   <p class="submit"> <input type="submit" value="Register"> </p> 
 </form><br>
-    <form action="q1.php" id="id3"> <p class="submit"> <input type="submit" value="Let's Start!!!!!!"> </p>   </form><br>
-     <form action="addaceleb1.php" method="get" id="id3">
+    <form action="q1.php" class="id3"> <p class="submit"> <input type="submit" value="Let's Start!!!!!!"> </p>
+</form><br>
+     <form action="addaceleb1.php" method="get" class="id3">
        <p class="submit"> <input type="submit" value="Add a Celebrity"> </p> 
 </form>
      <br>
-            <form action="view.php" method="get" id="id3">
+            <form action="view.php" method="get" class="id3">
                <p class="submit"> <input type="submit" value="View All Celebrities"> </p> 
 </form>
    
-
+</div>
 </body>

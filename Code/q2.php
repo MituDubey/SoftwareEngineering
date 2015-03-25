@@ -19,7 +19,7 @@ font-size: 50px;}
 <br><br><br><br>
 <div id="id2">
 <p id="id3">What is the Profession of the character you are thinking?</p>
-<form action="q3.php" id="id4">
+<form action="q3.php" method="post" id="id4">
  <input type="radio" name="prof" checked="checked"> Actor<br>
  <input type="radio" name="prof"> Scientist<br>
  <input type="radio" name="prof"> Politician<br>

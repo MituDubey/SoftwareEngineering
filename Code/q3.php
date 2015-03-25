@@ -19,7 +19,7 @@ font-size: 50px;}
 <br><br><br><br>
 <div id="id2">
 <p id="id3">What is the Marital Status of the character you are thinking?</p>
-<form action="q4.php" id="id4">
+<form action="answer.php" method="post" id="id4">
  <input type="radio" name="prof" checked="checked"> Married<br>
  <input type="radio" name="prof"> Unmarried<br>
  <input type="radio" name="prof"> Relationship<br>
